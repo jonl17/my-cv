@@ -70,6 +70,14 @@
             "label": "secondary link label",
             "placeholder": ""
           }
+        },
+        "github_repo": {
+          "type": "Link",
+          "config": {
+            "label": "github repo",
+            "placeholder": "",
+            "select": null
+          }
         }
       },
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"

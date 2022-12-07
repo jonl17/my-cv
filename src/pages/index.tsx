@@ -12,9 +12,7 @@ const Home: NextPage<Props> = ({ homepage }) => {
   return (
     <div className="p-5 lg:p-10">
       <div className="lg:flex justify-between">
-        <div>
-          <h1 className="text-3xl mb-5">Jón Gabríel Lorange</h1>
-        </div>
+        <h1 className="text-3xl mb-5">Jón Gabríel Lorange</h1>
         <h1>Curriculum Vitae 2022</h1>
       </div>
 

@@ -139,6 +139,16 @@ export interface CvTableSliceDefaultItem {
      *
      */
     secondary_link_label: prismicT.KeyTextField;
+    /**
+     * github repo field in *CvTableSlice → Items*
+     *
+     * - **Field Type**: Link
+     * - **Placeholder**: *None*
+     * - **API ID Path**: cv_table.items[].github_repo
+     * - **Documentation**: https://prismic.io/docs/core-concepts/link-content-relationship
+     *
+     */
+    github_repo: prismicT.LinkField;
 }
 /**
  * Default variation for CvTableSlice Slice

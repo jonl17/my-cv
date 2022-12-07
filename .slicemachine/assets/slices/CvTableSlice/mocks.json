@@ -4,23 +4,27 @@
     "version": "sktwi1xtmkfgx8626",
     "items": [
       {
-        "entry_name": "course",
-        "period": "influence",
-        "description": "mostly",
+        "entry_name": "one",
+        "period": "planet",
+        "description": "please",
         "link_url": {
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         },
-        "link_label": "airplane",
+        "link_label": "bent",
         "secondary_link_url": {
           "link_type": "Web",
           "url": "http://twitter.com"
         },
-        "secondary_link_label": "left"
+        "secondary_link_label": "jet",
+        "github_repo": {
+          "link_type": "Web",
+          "url": "http://google.com"
+        }
       }
     ],
     "primary": {
-      "title": "hunt"
+      "title": "forty"
     },
     "slice_type": "cv_table"
   }
