@@ -1,0 +1,9 @@
+{
+  "id": "cv_entry",
+  "label": "cv entry",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

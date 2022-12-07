@@ -1,0 +1,122 @@
+{
+  "slices": {
+    "components": {
+      "cv_table": {
+        "library": "slices",
+        "id": "cv_table",
+        "name": "CvTableSlice",
+        "description": "CvTable",
+        "model": {
+          "id": "cv_table",
+          "type": "SharedSlice",
+          "name": "CvTableSlice",
+          "description": "CvTable",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CvTable",
+              "primary": {
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "entry_name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "entry name",
+                    "placeholder": ""
+                  }
+                },
+                "period": {
+                  "type": "Text",
+                  "config": {
+                    "label": "period",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "description",
+                    "placeholder": ""
+                  }
+                },
+                "link_url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "link url",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "link label",
+                    "placeholder": ""
+                  }
+                },
+                "secondary_link_url": {
+                  "type": "Link",
+                  "config": {
+                    "label": "secondary link url",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "secondary_link_label": {
+                  "type": "Text",
+                  "config": {
+                    "label": "secondary link label",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "entry_name": "course",
+                "period": "influence",
+                "description": "mostly",
+                "link_url": {
+                  "link_type": "Web",
+                  "url": "https://slicemachine.dev"
+                },
+                "link_label": "airplane",
+                "secondary_link_url": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                },
+                "secondary_link_label": "left"
+              }
+            ],
+            "primary": {
+              "title": "hunt"
+            },
+            "slice_type": "cv_table"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "tsx"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

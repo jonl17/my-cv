@@ -1,0 +1,14 @@
+{
+  "_cts": {
+    "cv_entry": {},
+    "homepage": {}
+  },
+  "slices": {
+    "CvTable": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "CvTableSlice": {}
+  }
+}
